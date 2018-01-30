@@ -1,0 +1,50 @@
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dll
+*.pdb
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+obj/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+MyWebApi/obj/MyWebApi.csproj.nuget.cache
+MyWebApi/bin/Debug/netcoreapp2.0/MyWebApi.dll
+MyWebApi/bin/Debug/netcoreapp2.0/MyWebApi.pdb
+MyWebApi/bin/Debug/netcoreapp2.0/MyWebApi.runtimeconfig.dev.json
+MyWebApi/obj/MyWebApi.csproj.nuget.g.props
+MyWebApi/obj/MyWebApi.csproj.nuget.g.targets
+MyWebApi/obj/project.assets.json
+MyWebApi/obj/Debug/netcoreapp2.0/MyWebApi.dll
+MyWebApi/obj/Debug/netcoreapp2.0/MyWebApi.pdb
+MyWebApi/obj/Debug/netcoreapp2.0/MyWebApi.AssemblyInfo.cs
+MyWebApi/obj/Debug/netcoreapp2.0/MyWebApi.AssemblyInfoInputs.cache
+MyWebApi/obj/Debug/netcoreapp2.0/MyWebApi.csproj.CoreCompileInputs.cache
+MyWebApi/obj/Debug/netcoreapp2.0/MyWebApi.csproj.FileListAbsolute.txt

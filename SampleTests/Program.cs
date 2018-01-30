@@ -9,7 +9,20 @@ namespace SampleTests
         {
             var result = AddInts(3, 4);
             Console.WriteLine("Result: " + result);
-            Console.Read();
+
+            Person p = new Person();
+            p.cachEvent += cachEventHandle;
+            p.cachEvent += (amount) => Console.WriteLine("2nd event, amount =" + amount.ToString());
+
+            p.AddCach(50);
+            p.AddCach(60);
+
+            // Console.Read();
+        }
+
+        static void cachEventHandle(int amount)
+        {
+            Console.WriteLine("this person is rich!" + amount.ToString());
         }
 
         public static int AddInts(int x, int y)
