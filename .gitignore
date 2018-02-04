@@ -48,3 +48,4 @@ MyWebApi/obj/Debug/netcoreapp2.0/MyWebApi.AssemblyInfo.cs
 MyWebApi/obj/Debug/netcoreapp2.0/MyWebApi.AssemblyInfoInputs.cache
 MyWebApi/obj/Debug/netcoreapp2.0/MyWebApi.csproj.CoreCompileInputs.cache
 MyWebApi/obj/Debug/netcoreapp2.0/MyWebApi.csproj.FileListAbsolute.txt
+SampleTests/bin/Debug/netcoreapp2.0/SampleTests.dll

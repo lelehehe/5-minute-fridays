@@ -17,7 +17,7 @@ namespace SampleTests
             p.AddCach(50);
             p.AddCach(60);
 
-            // Console.Read();
+            // Console.Read();do
         }
 
         static void cachEventHandle(int amount)
